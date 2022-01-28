@@ -1,0 +1,66 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="~/lib/bootstrap/dist/css/Style.css" rel="stylesheet" />
+
+        <title>Emlakçım</title>
+   </head>
+   <body>
+       <!-- Menü kısmı başlangıç-->
+       <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:yellowgreen">
+           <div class="container-fluid">
+               <a class="navbar-brand" href="#">EMLAKÇIM</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                   <ul class="navbar-nav">
+                       <li class="nav-item">
+                           <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#">Hakkımızda</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#">Pricing</a>
+                       </li>
+                       <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Dropdown link
+                           </a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                               <li><a class="dropdown-item" href="#">Action</a></li>
+                               <li><a class="dropdown-item" href="#">Another action</a></li>
+                               <li><a class="dropdown-item" href="#">Something else here</a></li>
+                           </ul>
+                       </li>
+                  </ul>
+            </div>
+        </div>-
+      </nav>
+       <!--Menü kısmı bitiş-->
+
+       <!--Slider Başlangıç-->
+      <div class="container">
+          <img class="mx-auto d-block" src="~/images/Home.jpg" style="height:500px; width:1000px";/>
+      </div>
+      <div></div>
+
+       <!--SliderBitiş-->
+       
+       
+       <div class="container">
+           @RenderBody()
+       </div>
+       <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+   </body>
+</html>
+
