@@ -1,0 +1,21 @@
+﻿@model Entities.Concrete.Role
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Rol Ekleme</h2>
+@using (Html.BeginForm("Add","Role",FormMethod.Post))
+{
+   
+    <div class="form-group">
+        @Html.LabelFor(m => m.RoleName)
+        @Html.TextBoxFor(m=>m.RoleName, new {@class="form-control"})
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-success">Ekle</button>
+
+}
+
+

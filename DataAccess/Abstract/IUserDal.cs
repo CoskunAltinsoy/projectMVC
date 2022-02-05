@@ -10,5 +10,6 @@ namespace DataAccess.Abstract
 {
     public interface IUserDal:IEntityRepository<User>
     {
+        public List<User> GetUsersRoleName();
     }
 }

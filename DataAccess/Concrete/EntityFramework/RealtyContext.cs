@@ -16,11 +16,6 @@ namespace DataAccess.Concrete.EntityFramework
             //builder => builder.EnableRetryOnFailure());
         }
         public DbSet<User> Users { get; set; }
-        public DbSet<Customer> Customers { get; set; }
-        public DbSet<Admin> Admins { get; set; }
-        public DbSet<Home> Homes { get; set; }
-        public DbSet<Realty> Realties { get; set; }
-        public DbSet<Land> Lands { get; set; }
-        public DbSet<WorkPlace> WorkPlaces { get; set; }
+        public DbSet<Role> Roles { get; set; }
     }
 }

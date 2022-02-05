@@ -1,51 +1,35 @@
 ﻿using Business.Abstract;
 using Entities.Concrete;
 using Microsoft.AspNetCore.Mvc;
+using MvcWebUI.Models;
 
 namespace MvcWebUI.Controllers
 {
     public class UserController : Controller
     {
         IUserService _userService;
-        public UserController(IUserService userService)
+        IRoleService _roleService;
+        public UserController(IUserService userService, IRoleService roleService)
         {
             _userService = userService;
+            _roleService = roleService;
         }
-
-       
         public IActionResult Index()
         {
             return View(_userService.GetAll());
         }
-
-        [HttpGet]
         public IActionResult Add()
         {
-            return View();
+            var model = new UserViewModels()
+            {
+                Roles = _roleService.GetAll()
+            };
+            return View(model);
         }
         [HttpPost]
         public IActionResult Add(User user)
         {
             _userService.Add(user);
-            return RedirectToAction("Index");
-        }
-
-        public IActionResult Update(int id)
-        {
-            var model = _userService.GetById(id);
-            return View(model);
-        }
-        [HttpPost]
-        public IActionResult Update(User user)
-        {
-            _userService.Update(user);  
-            return RedirectToAction("index");
-        }
-
-        public IActionResult Delete(User user)
-        {
-            var model = _userService.GetById(user.Id);
-            _userService.Delete(model);
             return RedirectToAction("index");
         }
     }

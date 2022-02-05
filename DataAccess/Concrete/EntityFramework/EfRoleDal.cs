@@ -10,14 +10,16 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfUserDal : EfEntityRepositoryBase<User, RealtyContext>, IUserDal
+    public class EfRoleDal : EfEntityRepositoryBase<Role, RealtyContext>, IRoleDal
     {
-        public List<User> GetUsersRoleName()
+        public List<Role> GetAllRole()
         {
             using (var context = new RealtyContext())
             {
-                return context.Users.Include(x => x.Role).ToList();
+                return context.Roles.Include(x=>x.Users).ToList();
             }
         }
+
+    
     }
 }

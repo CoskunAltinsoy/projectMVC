@@ -16,7 +16,11 @@ namespace Business.DependencyResolvers.Autofac
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<UserManager>().As<IUserService>().SingleInstance();
-            builder.RegisterType<EfUserDal>().As<IUserDal>().SingleInstance();
+            builder.RegisterType<EfUserDal>().As<IUserDal>().SingleInstance();          
+
+            builder.RegisterType<RoleManager>().As<IRoleService>().SingleInstance();
+            builder.RegisterType<EfRoleDal>().As<IRoleDal>().SingleInstance();
+
         }
     }
 }

@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Business.Abstract
 {
-    public interface ILandService
+    public interface IRoleService
     {
-        List<Land> GetAll();
-        Land GetById(int id);
-        void Add(Land land);
-        void Update(Land land);
-        void Delete(Land land);
+        List<Role> GetAll();
+        Role GetById(int id);
+        void Add(Role admin);
+        void Update(Role admin);
+        void Delete(Role admin);
     }
 }

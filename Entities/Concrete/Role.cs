@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 
 namespace Entities.Concrete
 {
-    public class Customer:IEntity<int>
+    public class Role : IEntity<int>
     {
         public int Id { get; set; }
-        public int UserId { get; set; }
-        
+        public string RoleName { get; set; }
+
+        public virtual List<User> Users { get; set; }
     }
 }

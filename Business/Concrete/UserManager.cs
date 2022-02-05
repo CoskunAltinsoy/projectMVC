@@ -29,7 +29,7 @@ namespace Business.Concrete
 
         public List<User> GetAll()
         {
-            return _userDal.GetAll();
+            return _userDal.GetUsersRoleName();
         }
 
         public User GetById(int id)

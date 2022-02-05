@@ -1,28 +1,39 @@
-﻿@model Entities.Concrete.User
+﻿@model MvcWebUI.Models.UserViewModels
 @{
     ViewData["Title"] = "Add";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<h2>Kullanıcı Ekleme</h2>
 @using (Html.BeginForm("Add","User",FormMethod.Post))
 {
    
     <div class="form-group">
-        @Html.LabelFor(m => m.FirstName)
-        @Html.TextBoxFor(m=>m.FirstName, new {@class="form-control"})
+        @Html.LabelFor(m => m.User.FirstName)
+        @Html.TextBoxFor(m=>m.User.FirstName, new {@class="form-control"})
     </div>
     <div class="form-group">
-        @Html.LabelFor(m => m.LastName)
-        @Html.TextBoxFor(m=>m.LastName, new {@class="form-control"})
+        @Html.LabelFor(m => m.User.LastName)
+        @Html.TextBoxFor(m=>m.User.LastName, new {@class="form-control"})
     </div>
     <div class="form-group">
-        @Html.LabelFor(m => m.Email)
-        @Html.TextBoxFor(m=>m.Email, new {@class="form-control"})
+        @Html.LabelFor(m => m.User.UserName)
+        @Html.TextBoxFor(m=>m.User.UserName, new {@class="form-control"})
     </div>
     <div class="form-group">
-        @Html.LabelFor(m => m.Password)
-        @Html.TextBoxFor(m=>m.Password, new {@class="form-control"})
+        @Html.LabelFor(m => m.User.Email)
+        @Html.TextBoxFor(m=>m.User.Email, new {@class="form-control"})
     </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.User.Password)
+        @Html.TextBoxFor(m=>m.User.Password, new {@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.User.RoleId)
+        @Html.DropDownListFor(m=>m.User.RoleId, new SelectList(Model.Roles,"Id","RoleName"), new {@class="form-control"})
+    </div>
+
+    <br />
     <button type="submit" class="btn btn-success">Ekle</button>
 
 }

@@ -1,38 +1,37 @@
 ﻿@model IEnumerable<Entities.Concrete.User>
-
 @{
-    Layout = "../Shared/_Layout.cshtml";
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
+<h2>Kullanıcı Listesi</h2>
+<table class="table table-hover">
+    <tr>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>Kullanıcı Adı</th>
+        <th>Email</th>
+        <th>Şifre</th>
+        <th>Rol</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+        
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.FirstName</td>
+            <td>@item.LastName</td>
+            <td>@item.UserName</td>
+            <td>@item.Email</td>
+            <td>@item.Password</td>
+            <td>@item.Role.RoleName</td>
+            <td><a class="btn btn-primary" href="/User/Update/@item.Id">Güncelle</a></td>
+            <td><a class="btn btn-danger" href="/User/Delete/@item.Id">Sil</a></td>
+        </tr>
+    }
+</table>
+<br />
+<a href="/User/Add/" class= "btn btn-info">Yeni Kullanıcı</a>
 
 
-    <table class="table table-hover">          
-         <tr>
-             <th>Id</th>
-             <th>Ad</th>
-             <th>Soyad</th>
-             <th>Email</th>
-             <th>Parola</th>
-             <th>Güncelle</th>
-             <th>Sil</th>
-         </tr>
-         @foreach (var item in Model)
-         {
-             <tr>
-                 <td>@item.Id</td>
-                 <td>@item.FirstName</td>
-                 <td>@item.LastName</td>
-                 <td>@item.Email</td>
-                 <td>@item.Password</td>
-                 <td><a class="btn btn-primary" href="/User/Update/@item.Id">Güncelle</a></td>
-                 <td><a class="btn btn-danger" href="/User/Delete/@item.Id">Sil</a></td>
-             </tr>
-             
-         }
-     </table> 
-     <br/>
-     <a href="/User/Add/" class= "btn btn-info">Yeni kategori</a>
-     
-     
-    
