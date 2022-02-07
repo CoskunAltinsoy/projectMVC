@@ -17,9 +17,9 @@ namespace Business.Concrete
             _userDal = userDal;
         }
 
-        public User Add(User user)
+        public void Add(User user)
         {
-            return _userDal.Add(user);
+            _userDal.Add(user);
         }
 
         public void Delete(User user)
@@ -37,9 +37,9 @@ namespace Business.Concrete
             return _userDal.Get(u => u.Id == id);
         }
 
-        public User Update(User user)
+        public void Update(User user)
         {
-            return _userDal.Update(user);
+            _userDal.Update(user);
         }
     }
 }

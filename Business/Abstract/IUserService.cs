@@ -11,8 +11,8 @@ namespace Business.Abstract
     {
         List<User> GetAll();
         User GetById(int id);
-        User Add(User user);
-        User Update(User user);
+        void Add(User user);
+        void Update(User user);
         void Delete(User user);    
     }
 }
