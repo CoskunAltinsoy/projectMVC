@@ -10,6 +10,6 @@ namespace DataAccess.Abstract
 {
     public interface IRoleDal:IEntityRepository<Role>
     {
-        List<Role> GetAllRole();
+        public List<Role> GetAllRole();
     }
 }

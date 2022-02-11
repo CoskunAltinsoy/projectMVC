@@ -2,7 +2,7 @@
 
 namespace MvcWebUI.Models
 {
-    public class UserViewModels
+    public class UserViewModel
     {
         public IEnumerable<Role> Roles { get; set; }
         public User User { get; set; }

@@ -21,7 +21,7 @@ namespace MvcWebUI.Controllers
         [HttpGet]
         public IActionResult Add()
         {
-            var model = new UserViewModels()
+            var model = new UserViewModel()
             {
                 Roles = _roleService.GetAll()
             };
@@ -38,7 +38,7 @@ namespace MvcWebUI.Controllers
         public IActionResult Update(int id)
         {
             var user = _userService.GetById(id);
-            var model = new UserViewModels()
+            var model = new UserViewModel()
             {
                 Roles = _roleService.GetAll(),
                 User = user             

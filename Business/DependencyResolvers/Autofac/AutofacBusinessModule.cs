@@ -21,6 +21,15 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<RoleManager>().As<IRoleService>().SingleInstance();
             builder.RegisterType<EfRoleDal>().As<IRoleDal>().SingleInstance();
 
+            builder.RegisterType<AddressManager>().As<IAddressService>().SingleInstance();
+            builder.RegisterType<EfAddressDal>().As<IAddressDal>().SingleInstance();
+
+            builder.RegisterType<PropertyManager>().As<IPropertyService>().SingleInstance();
+            builder.RegisterType<EfPropertyDal>().As<IPropertyDal>().SingleInstance();
+
+            builder.RegisterType<LandManager>().As<ILandService>().SingleInstance();
+            builder.RegisterType<EfLandDal>().As<ILandDal>().SingleInstance();
+
         }
     }
 }
