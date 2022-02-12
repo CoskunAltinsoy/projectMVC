@@ -10,5 +10,6 @@ namespace DataAccess.Abstract
 {
     public interface ILandDal:IEntityRepository<Land>
     {
+        public List<Land> GetLandsAndProperty();
     }
 }

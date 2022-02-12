@@ -1,0 +1,69 @@
+﻿@model MvcWebUI.Models.LandViewModel
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Add</h1>
+@using (Html.BeginForm("Add","Land",FormMethod.Post))
+{
+   
+    <div class="form-group">
+        @Html.LabelFor(m => m.Property.Price)
+        @Html.TextBoxFor(m=>m.Property.Price, new {@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Property.Picture)
+        @Html.TextBoxFor(m=>m.Property.Picture, new {@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Property.Video)
+        @Html.TextBoxFor(m=>m.Property.Video, new {@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Property.ListingDate)
+        @Html.TextBoxFor(m=>m.Property.ListingDate, new {@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Property.AdvertNo)
+        @Html.TextBoxFor(m=>m.Property.AdvertNo, new {@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Property.AdvertState)
+        @Html.TextBoxFor(m=>m.Property.AdvertState, new {@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Property.Square)
+        @Html.TextBoxFor(m=>m.Property.Square, new {@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Land.Precedent)
+        @Html.TextBoxFor(m=>m.Land.Precedent, new {@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Land.Template)
+        @Html.TextBoxFor(m=>m.Land.Template, new {@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Land.DeedStatus)
+        @Html.TextBoxFor(m=>m.Land.DeedStatus, new {@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Land.LandType)
+        @Html.TextBoxFor(m=>m.Land.LandType, new {@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Land.ExchangeSatus)
+        @Html.TextBoxFor(m=>m.Land.ExchangeSatus, new {@class="form-control"})
+    </div>
+   @* <div class="form-group">
+        @Html.LabelFor(m => m.User.RoleId)
+        @Html.DropDownListFor(m=>m.User.RoleId, new SelectList(Model.Roles,"Id","RoleName"), new {@class="form-control"})
+    </div>*@
+
+    <br />
+    <button type="submit" class="btn btn-success">Ekle</button>
+
+}
+
+

@@ -28,7 +28,7 @@ namespace Business.Concrete
 
         public List<Land> GetAll()
         {
-            return _landDal.GetAll();
+            return _landDal.GetLandsAndProperty();
         }
 
         public Land GetById(int id)

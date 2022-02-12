@@ -15,7 +15,8 @@ namespace Entities.Concrete
         public string DeedStatus { get; set; }
         public string LandType { get; set; }
         public bool ExchangeSatus { get; set; }
+
         public virtual Property Property { get; set; }
-        public virtual Address Address { get; set; }
+     
     }
 }

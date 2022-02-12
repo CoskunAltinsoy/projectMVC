@@ -19,6 +19,7 @@ namespace Entities.Concrete
         public int Square { get; set; }
 
         public virtual Land Land { get; set; }
+        public virtual Address Address { get; set; }
 
     }
 }

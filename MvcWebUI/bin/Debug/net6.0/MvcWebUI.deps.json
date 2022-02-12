@@ -10,7 +10,7 @@
         "dependencies": {
           "Autofac.Extensions.DependencyInjection": "7.2.0",
           "Business": "1.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.1",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.2",
           "bootstrap": "5.1.3"
         },
         "runtime": {
@@ -905,7 +905,7 @@
           }
         }
       },
-      "Microsoft.DotNet.Scaffolding.Shared/6.0.1": {
+      "Microsoft.DotNet.Scaffolding.Shared/6.0.2": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp.Features": "4.0.0",
           "Microsoft.CodeAnalysis.CSharp.Scripting": "4.0.0",
@@ -916,12 +916,13 @@
           "Microsoft.CodeAnalysis.Workspaces.MSBuild": "4.0.0",
           "Newtonsoft.Json": "13.0.1",
           "NuGet.ProjectModel": "5.11.0",
-          "System.Collections.Immutable": "6.0.0"
+          "System.Collections.Immutable": "6.0.0",
+          "System.Private.Uri": "4.3.2"
         },
         "runtime": {
           "lib/net6.0/Microsoft.DotNet.Scaffolding.Shared.dll": {
-            "assemblyVersion": "6.0.1.0",
-            "fileVersion": "6.0.121.61405"
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.222.10402"
           }
         }
       },
@@ -1093,7 +1094,7 @@
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
-      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.3": {},
       "Microsoft.VisualStudio.Debugger.Contracts/17.2.0": {
         "dependencies": {
           "MessagePack": "2.1.152",
@@ -1108,114 +1109,121 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration/6.0.1": {
+      "Microsoft.VisualStudio.Web.CodeGeneration/6.0.2": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "6.0.1",
-          "System.Collections.Immutable": "6.0.0"
+          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "6.0.2",
+          "System.Collections.Immutable": "6.0.0",
+          "System.Private.Uri": "4.3.2"
         },
         "runtime": {
           "lib/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.dll": {
-            "assemblyVersion": "6.0.1.0",
-            "fileVersion": "6.0.121.61405"
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.222.10402"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Core/6.0.1": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Core/6.0.2": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "6.0.1",
-          "Newtonsoft.Json": "13.0.1"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "6.0.2",
+          "Newtonsoft.Json": "13.0.1",
+          "System.Private.Uri": "4.3.2"
         },
         "runtime": {
           "lib/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll": {
-            "assemblyVersion": "6.0.1.0",
-            "fileVersion": "6.0.121.61405"
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.222.10402"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design/6.0.1": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design/6.0.2": {
         "dependencies": {
           "Microsoft.Build.Locator": "1.4.1",
-          "Microsoft.DotNet.Scaffolding.Shared": "6.0.1",
-          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "6.0.1"
+          "Microsoft.DotNet.Scaffolding.Shared": "6.0.2",
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "6.0.2",
+          "System.Private.Uri": "4.3.2"
         },
         "runtime": {
           "lib/net6.0/dotnet-aspnet-codegenerator-design.dll": {
-            "assemblyVersion": "6.0.1.0",
-            "fileVersion": "6.0.121.61405"
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.222.10402"
           }
         },
         "runtimeTargets": {
           "runtimes/win-arm/lib/net6.0/dotnet-aspnet-codegenerator-design.exe": {
             "rid": "win-arm",
             "assetType": "runtime",
-            "fileVersion": "6.0.121.61405"
+            "fileVersion": "6.0.222.10402"
           },
           "runtimes/win-arm64/lib/net6.0/dotnet-aspnet-codegenerator-design.exe": {
             "rid": "win-arm64",
             "assetType": "runtime",
-            "fileVersion": "6.0.121.61405"
+            "fileVersion": "6.0.222.10402"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/6.0.1": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/6.0.2": {
         "dependencies": {
-          "Microsoft.DotNet.Scaffolding.Shared": "6.0.1",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "6.0.1"
+          "Microsoft.DotNet.Scaffolding.Shared": "6.0.2",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "6.0.2",
+          "System.Private.Uri": "4.3.2"
         },
         "runtime": {
           "lib/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll": {
-            "assemblyVersion": "6.0.1.0",
-            "fileVersion": "6.0.121.61405"
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.222.10402"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/6.0.1": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/6.0.2": {
         "dependencies": {
           "Microsoft.AspNetCore.Razor.Language": "6.0.0",
           "Microsoft.CodeAnalysis.CSharp": "4.0.0",
           "Microsoft.CodeAnalysis.Razor": "6.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "6.0.1"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "6.0.2",
+          "System.Private.Uri": "4.3.2"
         },
         "runtime": {
           "lib/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll": {
-            "assemblyVersion": "6.0.1.0",
-            "fileVersion": "6.0.121.61405"
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.222.10402"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/6.0.1": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/6.0.2": {
         "dependencies": {
           "Microsoft.Build": "17.0.0",
           "Microsoft.Build.Locator": "1.4.1",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.0.0",
-          "Microsoft.DotNet.Scaffolding.Shared": "6.0.1",
-          "Newtonsoft.Json": "13.0.1"
+          "Microsoft.DotNet.Scaffolding.Shared": "6.0.2",
+          "Newtonsoft.Json": "13.0.1",
+          "System.Private.Uri": "4.3.2"
         },
         "runtime": {
           "lib/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll": {
-            "assemblyVersion": "6.0.1.0",
-            "fileVersion": "6.0.121.61405"
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.222.10402"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/6.0.1": {
+      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/6.0.2": {
         "dependencies": {
-          "Microsoft.DotNet.Scaffolding.Shared": "6.0.1",
-          "Microsoft.VisualStudio.Web.CodeGeneration": "6.0.1"
+          "Microsoft.DotNet.Scaffolding.Shared": "6.0.2",
+          "Microsoft.VisualStudio.Web.CodeGeneration": "6.0.2",
+          "System.Private.Uri": "4.3.2"
         },
         "runtime": {
           "lib/net6.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {
-            "assemblyVersion": "6.0.1.0",
-            "fileVersion": "6.0.121.61405"
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.222.10402"
           }
         }
       },
       "Microsoft.Win32.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
         }
       },
@@ -1406,19 +1414,19 @@
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0"
+          "Microsoft.NETCore.Targets": "1.1.3"
         }
       },
       "runtime.native.System.IO.Compression/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0"
+          "Microsoft.NETCore.Targets": "1.1.3"
         }
       },
       "runtime.native.System.Net.Http/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0"
+          "Microsoft.NETCore.Targets": "1.1.3"
         }
       },
       "runtime.native.System.Security.Cryptography.Apple/4.3.0": {
@@ -1465,7 +1473,7 @@
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
         }
       },
@@ -1663,7 +1671,7 @@
       "System.Console/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.IO": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0"
@@ -1672,7 +1680,7 @@
       "System.Diagnostics.Debug/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
         }
       },
@@ -1684,7 +1692,7 @@
       "System.Diagnostics.Tools/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
         }
       },
@@ -1704,7 +1712,7 @@
       "System.Diagnostics.Tracing/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
         }
       },
@@ -1756,14 +1764,14 @@
       "System.Globalization/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
         }
       },
       "System.Globalization.Calendars/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Globalization": "4.3.0",
           "System.Runtime": "4.3.0"
         }
@@ -1793,7 +1801,7 @@
       "System.IO/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
@@ -1834,7 +1842,7 @@
       "System.IO.FileSystem/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.IO": "4.3.0",
           "System.IO.FileSystem.Primitives": "4.3.0",
           "System.Runtime": "4.3.0",
@@ -1913,7 +1921,7 @@
       "System.Net.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0",
           "System.Runtime.Handles": "4.3.0"
         }
@@ -1921,7 +1929,7 @@
       "System.Net.Sockets/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.IO": "4.3.0",
           "System.Net.Primitives": "4.3.0",
           "System.Runtime": "4.3.0",
@@ -1937,10 +1945,16 @@
           "System.Threading": "4.3.0"
         }
       },
+      "System.Private.Uri/4.3.2": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3"
+        }
+      },
       "System.Reflection/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.IO": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
@@ -1958,7 +1972,7 @@
       "System.Reflection.Extensions/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
         }
@@ -1967,7 +1981,7 @@
       "System.Reflection.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
         }
       },
@@ -1980,7 +1994,7 @@
       "System.Resources.ResourceManager/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Globalization": "4.3.0",
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
@@ -1989,7 +2003,7 @@
       "System.Runtime/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0"
+          "Microsoft.NETCore.Targets": "1.1.3"
         }
       },
       "System.Runtime.Caching/4.7.0": {
@@ -2015,21 +2029,21 @@
       "System.Runtime.Extensions/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
         }
       },
       "System.Runtime.Handles/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
         }
       },
       "System.Runtime.InteropServices/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Reflection": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0",
@@ -2212,7 +2226,7 @@
       "System.Text.Encoding/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
         }
       },
@@ -2224,7 +2238,7 @@
       "System.Text.Encoding.Extensions/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0"
         }
@@ -2244,7 +2258,7 @@
       "System.Threading.Tasks/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
         }
       },
@@ -2253,7 +2267,7 @@
       "System.Threading.Timer/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
         }
       },
@@ -2600,12 +2614,12 @@
       "path": "microsoft.diasymreader/1.3.0",
       "hashPath": "microsoft.diasymreader.1.3.0.nupkg.sha512"
     },
-    "Microsoft.DotNet.Scaffolding.Shared/6.0.1": {
+    "Microsoft.DotNet.Scaffolding.Shared/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-De7drR1t2WnvxPzFKMwK3vAZZMTOxwN9uaLwaxi6vv1SV9GcH8CayBdC6Dz7THvqiHQM6jmstcqlvsjBO4qnvw==",
-      "path": "microsoft.dotnet.scaffolding.shared/6.0.1",
-      "hashPath": "microsoft.dotnet.scaffolding.shared.6.0.1.nupkg.sha512"
+      "sha512": "sha512-xUPi/uB+be9DNguoy5VjAIMFopDckVUvQ6htFz/0QpI/cW2/mzB9ez9lXOGkciJhrRpRS5CMCOjOIB+0rZ9FnA==",
+      "path": "microsoft.dotnet.scaffolding.shared/6.0.2",
+      "hashPath": "microsoft.dotnet.scaffolding.shared.6.0.2.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/6.0.0": {
       "type": "package",
@@ -2761,12 +2775,12 @@
       "path": "microsoft.netcore.platforms/3.1.0",
       "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
     },
-    "Microsoft.NETCore.Targets/1.1.0": {
+    "Microsoft.NETCore.Targets/1.1.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
-      "path": "microsoft.netcore.targets/1.1.0",
-      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+      "sha512": "sha512-3Wrmi0kJDzClwAC+iBdUBpEKmEle8FQNsCs77fkiOIw/9oYA07bL1EZNX0kQ2OMN3xpwvl0vAtOCYY3ndDNlhQ==",
+      "path": "microsoft.netcore.targets/1.1.3",
+      "hashPath": "microsoft.netcore.targets.1.1.3.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Debugger.Contracts/17.2.0": {
       "type": "package",
@@ -2775,54 +2789,54 @@
       "path": "microsoft.visualstudio.debugger.contracts/17.2.0",
       "hashPath": "microsoft.visualstudio.debugger.contracts.17.2.0.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration/6.0.1": {
+    "Microsoft.VisualStudio.Web.CodeGeneration/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1TKkFvvXflaDcGOBkMz0PePWoMSzB6+Kf9ya9cQ3FE8YyAuX/DVjQFSie+XS9q7zoDedgWbEeL1J3V2GGi8toQ==",
-      "path": "microsoft.visualstudio.web.codegeneration/6.0.1",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.6.0.1.nupkg.sha512"
+      "sha512": "sha512-moxGQEGLNw7jPiH2WlW884pHdCOGT0V3Ya1g7xBd9vb5eTwASQkpnVXAOT0LoNfSKUllU2etN74BhMuXOEZpCA==",
+      "path": "microsoft.visualstudio.web.codegeneration/6.0.2",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.6.0.2.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Core/6.0.1": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.Core/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8u8zOTTSZGT6o5i/UkNwsSCfcKqKXThPRQ3BfTq5EZFnPav5B3pnYZh1IyCI8+8iWu1dSbEdNehoN/KPsnhQbQ==",
-      "path": "microsoft.visualstudio.web.codegeneration.core/6.0.1",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.core.6.0.1.nupkg.sha512"
+      "sha512": "sha512-blW9QnVkq6uSSJeItbvPS+o5wQpOuy9xhZtlKWSVrOjHcdSd3IcvHjt65oRXhuxj6xZau9W+9fBhkLRZo8IHsg==",
+      "path": "microsoft.visualstudio.web.codegeneration.core/6.0.2",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.core.6.0.2.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Design/6.0.1": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-and80isWYsHhIbHGzEYKT+LXGiuq4Z44u6dviA/CJmcSVFue/EBw9/xL3LQSq1BW66GhdOHMs0R4l024bZ2eYg==",
-      "path": "microsoft.visualstudio.web.codegeneration.design/6.0.1",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.design.6.0.1.nupkg.sha512"
+      "sha512": "sha512-ffwwwsb6Ax8rKIMWg+jiQo4YJ3+2nSseg3KpHeQGRFlQ5w3fdP2Cr5NFrPJOTstfBF9F2XzIvaJj2Yku2E0t1g==",
+      "path": "microsoft.visualstudio.web.codegeneration.design/6.0.2",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.design.6.0.2.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/6.0.1": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pONKQr15nc0TMhBUkSdn73R6+EplMQD3wgq+bLNZMiOlivifgHkAujstV183AipjE0AssaCg8jk/put2KiyF5g==",
-      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/6.0.1",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.entityframeworkcore.6.0.1.nupkg.sha512"
+      "sha512": "sha512-mF138giisvLjHncJ/0o4QXwI08yUrCBPh3NVyK4ByYlxJQxCLAOKYk0DJ+UiAKiFc1UHjR9wxzpVr6wW1VmL8A==",
+      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/6.0.2",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.entityframeworkcore.6.0.2.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/6.0.1": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-y1/B3NM9GkcNmQgB1FlIERJbDqZh6r9eZSySz3IF4fz6FNXrs9a389uf86IREkQHlINSuhdfDgEkb9CkBgFYCA==",
-      "path": "microsoft.visualstudio.web.codegeneration.templating/6.0.1",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.templating.6.0.1.nupkg.sha512"
+      "sha512": "sha512-HrIb/h2PJPwws8n8JE0fbIJDvgdspzJPO5hRT0hYf+YKHTxnmKcjsDznmpPwNhGZZ39aUFH/aPfNC9ELTh5NYQ==",
+      "path": "microsoft.visualstudio.web.codegeneration.templating/6.0.2",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.templating.6.0.2.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/6.0.1": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-rnjiCPlhBxBmM1hhnrSef68D3tkpdl2fite3NH8EAX0XncUd+HhHgEHjuzfjJpkbsEphbJzWDrSqiFtVvMOEsg==",
-      "path": "microsoft.visualstudio.web.codegeneration.utils/6.0.1",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.utils.6.0.1.nupkg.sha512"
+      "sha512": "sha512-1WBT82/JrUJxy4YA8Pban3mVOCPeEP4GEcs86zQeF/Cx1vIhX/LPslESBYzkmUcWT94sXyK+K35UlGv3ku3VTQ==",
+      "path": "microsoft.visualstudio.web.codegeneration.utils/6.0.2",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.utils.6.0.2.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/6.0.1": {
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Za1Kz7iJ7mHbi14qYRigXyQVWF13edUTd6fpOvhraBJEdtFHqCku/oqVSKvX4GD10avBdUPgb/O8ntKJa3UaKQ==",
-      "path": "microsoft.visualstudio.web.codegenerators.mvc/6.0.1",
-      "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.6.0.1.nupkg.sha512"
+      "sha512": "sha512-PKNDmK8SyZZ2b/bKtKvgqRsi6jibeVUkQFjdFEtL4ROOWiqnGiBgxN0o2A+rr3WsE5klU3b6HS6JpwlMjCklkQ==",
+      "path": "microsoft.visualstudio.web.codegenerators.mvc/6.0.2",
+      "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.6.0.2.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
@@ -3334,6 +3348,13 @@
       "sha512": "sha512-bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
       "path": "system.objectmodel/4.3.0",
       "hashPath": "system.objectmodel.4.3.0.nupkg.sha512"
+    },
+    "System.Private.Uri/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o1+7RJnu3Ik3PazR7Z7tJhjPdE000Eq2KGLLWhqJJKXj04wrS8lwb1OFtDF9jzXXADhUuZNJZlPc98uwwqmpFA==",
+      "path": "system.private.uri/4.3.2",
+      "hashPath": "system.private.uri.4.3.2.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",

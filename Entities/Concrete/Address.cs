@@ -14,6 +14,6 @@ namespace Entities.Concrete
         public string District { get; set; }
         public string Street { get; set; }
 
-        public virtual Land Land { get; set; }
+        public virtual Property Property { get; set; }
     }
 }

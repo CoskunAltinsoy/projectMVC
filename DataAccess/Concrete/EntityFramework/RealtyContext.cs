@@ -17,5 +17,8 @@ namespace DataAccess.Concrete.EntityFramework
         }
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
+        public DbSet<Land> Lands { get; set; }
+        public DbSet<Address> Addresses { get; set; }
+        public DbSet<Property> Properties { get; set; }
     }
 }
