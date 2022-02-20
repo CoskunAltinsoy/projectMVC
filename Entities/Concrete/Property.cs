@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace Entities.Concrete
 {
-    public class Property : IEntity<int>
+    public class Property : IEntity
     {
-        public int Id { get; set; }
+
+        public int PropertyId { get; set; }
         public int Price { get; set; }
         public string Picture { get; set; }
         public string Video { get; set; }
@@ -17,9 +18,12 @@ namespace Entities.Concrete
         public string AdvertNo { get; set; }
         public string AdvertState { get; set; }
         public int Square { get; set; }
+        public string City { get; set; }
+        public string District { get; set; }
+        public string Street { get; set; }
 
         public virtual Land Land { get; set; }
-        public virtual Address Address { get; set; }
+       
 
     }
 }

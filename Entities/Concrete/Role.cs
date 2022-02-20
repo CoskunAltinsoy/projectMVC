@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Entities.Concrete
 {
-    public class Role : IEntity<int>
+    public class Role : IEntity
     {
-        public int Id { get; set; }
+        public int RoleId { get; set; }
         public string RoleName { get; set; }
 
         public virtual List<User> Users { get; set; }

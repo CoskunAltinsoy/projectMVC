@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sJnKfdSXCLVbqjrd18mbeyAGzXPP//+wc5f7INJDyS60ZvNJ57xkSiMTG+S0iMXDLSQedcAZSlUsNXWBEeaH1g==",
+  "dgSpecHash": "BZm8O2BH1hQbypk4WAL+E0+qB9GPh7cf+JUadhsywjifALGssrX6rHHXV3Ot093D1NEsu7KqUajtyKnvfBtqkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cosku\\source\\repos\\MVCProject\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cosku\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\cosku\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

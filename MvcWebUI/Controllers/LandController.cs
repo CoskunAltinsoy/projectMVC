@@ -9,12 +9,11 @@ namespace MvcWebUI.Controllers
     {
         ILandService _landService;
         IPropertyService _propertyService;
-        IAddressService _addressService;    
-        public LandController(ILandService landService, IPropertyService propertyService, IAddressService addressService)
+       
+        public LandController(ILandService landService, IPropertyService propertyService)
         {
             _landService = landService;
-            _propertyService = propertyService;
-            _addressService = addressService;
+            _propertyService = propertyService;           
         }
         public IActionResult Index()
         {
@@ -26,8 +25,7 @@ namespace MvcWebUI.Controllers
             var model = new LandViewModel
             {
                 Land = _landService.GetById(id),
-                Property = _propertyService.GetById(id),
-                Address = _addressService.GetById(id)
+                Property = _propertyService.GetById(id)
             };
             return View("add",model);
         }

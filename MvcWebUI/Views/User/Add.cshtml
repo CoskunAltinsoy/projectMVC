@@ -30,7 +30,7 @@
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.User.RoleId)
-        @Html.DropDownListFor(m=>m.User.RoleId, new SelectList(Model.Roles,"Id","RoleName"), new {@class="form-control"})
+        @Html.DropDownListFor(m=>m.User.RoleId, new SelectList(Model.Roles,"RoleId","RoleName"), new {@class="form-control"})
     </div>
 
     <br />

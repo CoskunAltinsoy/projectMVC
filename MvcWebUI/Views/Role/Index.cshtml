@@ -16,10 +16,10 @@
     @foreach (var item in Model)
     {
         <tr>
-            <td>@item.Id</td>
+            <td>@item.RoleId</td>
             <td>@item.RoleName</td>
-            <td><a class="btn btn-primary" href="/Role/Update/@item.Id">Güncelle</a></td>
-            <td><a class="btn btn-danger" href="/Role/Delete/@item.Id">Sil</a></td>
+            <td><a class="btn btn-primary" href="/Role/Update/@item.RoleId">Güncelle</a></td>
+            <td><a class="btn btn-danger" href="/Role/Delete/@item.RoleId">Sil</a></td>
         </tr>
     }
 </table>

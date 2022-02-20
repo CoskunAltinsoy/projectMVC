@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A9Sw9OAUfuB2wzkw0RxlaVndcDKjUd8Z3nTWfjMdR/irpTGdkMSjv5+9Ag/OQGSS3FEiTBLuf1NqD6jP/pIyjA==",
+  "dgSpecHash": "KSTCWXMMUkqHu/5oH+RJf2sik0aqA2fT4DiZpC0fBjOauji8jLuC9O3uT/1yGX+P0s/Lgv38ZZs3xuo0bB69rA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cosku\\source\\repos\\MVCProject\\MvcWebUI\\MvcWebUI.csproj",
+  "projectFilePath": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\MvcWebUI\\MvcWebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cosku\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\cosku\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",

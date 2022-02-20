@@ -16,7 +16,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (var context = new RealtyContext())
             {
-                return context.Lands.Include(x => x.Property).ThenInclude(x=>x.Address).ToList();
+                return context.Lands.Include(x => x.Property).ToList();
             }
         }
     }

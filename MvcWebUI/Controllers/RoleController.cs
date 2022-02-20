@@ -48,7 +48,7 @@ namespace MvcWebUI.Controllers
 
         public IActionResult Delete(Role role)
         {
-            var model = _roleService.GetById(role.Id);
+            var model = _roleService.GetById(role.RoleId);
             _roleService.Delete(model);
             return RedirectToAction("index",model);
         }

@@ -32,7 +32,7 @@ namespace Business.Concrete
 
         public Role GetById(int id)
         {
-            return _roleDal.Get(x=>x.Id == id);
+            return _roleDal.Get(x=>x.RoleId == id);
         }
 
         public void Update(Role role)

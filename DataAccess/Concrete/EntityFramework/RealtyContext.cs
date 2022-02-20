@@ -12,13 +12,12 @@ namespace DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=Realtor;Trusted_Connection=True");
+            optionsBuilder.UseSqlServer(@"server=DESKTOP-V42T2II\SQLSERVER2019;Database=Realtor;Trusted_Connection=True");
             //builder => builder.EnableRetryOnFailure());
         }
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<Land> Lands { get; set; }
-        public DbSet<Address> Addresses { get; set; }
         public DbSet<Property> Properties { get; set; }
     }
 }

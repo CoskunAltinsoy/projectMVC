@@ -34,7 +34,7 @@ namespace Business.Concrete
 
         public Property GetById(int id)
         {
-            return _propertyDal.Get(x=>x.Id == id);
+            return _propertyDal.Get(x=>x.PropertyId == id);
         }
 
         public void Update(Property property)

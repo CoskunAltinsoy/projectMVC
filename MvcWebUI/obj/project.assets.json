@@ -10480,11 +10480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cosku\\source\\repos\\MVCProject\\MvcWebUI\\MvcWebUI.csproj",
+      "projectUniqueName": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\MvcWebUI\\MvcWebUI.csproj",
       "projectName": "MvcWebUI",
-      "projectPath": "C:\\Users\\cosku\\source\\repos\\MVCProject\\MvcWebUI\\MvcWebUI.csproj",
+      "projectPath": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\MvcWebUI\\MvcWebUI.csproj",
       "packagesPath": "C:\\Users\\cosku\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cosku\\source\\repos\\MVCProject\\MvcWebUI\\obj\\",
+      "outputPath": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\MvcWebUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cosku\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10501,8 +10501,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\cosku\\source\\repos\\MVCProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\cosku\\source\\repos\\MVCProject\\Business\\Business.csproj"
+            "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\Business\\Business.csproj"
             }
           }
         }

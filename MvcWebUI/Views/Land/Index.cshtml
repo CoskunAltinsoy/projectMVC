@@ -27,7 +27,7 @@
     @foreach (var item in Model)
     {
         <tr>
-            <td>@item.Id</td>
+            <td>@item.LandId</td>
             <td>@item.Property.Price</td>
             <td>@item.Property.Picture</td>
             <td>@item.Property.Video</td>
@@ -40,8 +40,8 @@
             <td>@item.DeedStatus</td>
             <td>@item.LandType</td>
             <td>@item.ExchangeSatus</td>
-            <td><a class="btn btn-primary" href="/Role/Update/@item.Id">Güncelle</a></td>
-            <td><a class="btn btn-danger" href="/Role/Delete/@item.Id">Sil</a></td>
+            <td><a class="btn btn-primary" href="/Role/Update/@item.LandId">Güncelle</a></td>
+            <td><a class="btn btn-danger" href="/Role/Delete/@item.LandId">Sil</a></td>
         </tr>
     }
 </table>

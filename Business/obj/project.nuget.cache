@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I0bc6uVPr9sLVl0u/ii+tsO80FtmsAzExiBFkhlEMXaV4C6zmhMV52bBZGFq/qud3F12OnQB5G3toqjWVcXu1Q==",
+  "dgSpecHash": "5nYOd+8JGHnlWPTtRr5ZVAfO14gGJkDjgBa6pi9cxMBIHB2Tli3/4SM0A3A0NlQm3/sJDjhGa3JpL1B2DSPlOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cosku\\source\\repos\\MVCProject\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cosku\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\cosku\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",

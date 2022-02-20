@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cosku\\source\\repos\\MVCProject\\Core\\Core.csproj": {}
+    "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cosku\\source\\repos\\MVCProject\\Core\\Core.csproj": {
+    "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cosku\\source\\repos\\MVCProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\cosku\\source\\repos\\MVCProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\cosku\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cosku\\source\\repos\\MVCProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cosku\\AppData\\Roaming\\NuGet\\NuGet.Config",

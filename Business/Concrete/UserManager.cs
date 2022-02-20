@@ -34,7 +34,7 @@ namespace Business.Concrete
 
         public User GetById(int id)
         {
-            return _userDal.Get(u => u.Id == id);
+            return _userDal.Get(u => u.UserId == id);
         }
 
         public void Update(User user)

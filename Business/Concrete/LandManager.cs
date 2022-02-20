@@ -33,7 +33,7 @@ namespace Business.Concrete
 
         public Land GetById(int id)
         {
-            return _landDal.Get(x=>x.Id == id);
+            return _landDal.Get(x=>x.LandId == id);
         }
 
         public void Update(Land land)

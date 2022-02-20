@@ -1808,11 +1808,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cosku\\source\\repos\\MVCProject\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\cosku\\source\\repos\\MVCProject\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\cosku\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cosku\\source\\repos\\MVCProject\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cosku\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1829,8 +1829,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\cosku\\source\\repos\\MVCProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\cosku\\source\\repos\\MVCProject\\Entities\\Entities.csproj"
+            "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\cosku\\Source\\Repos\\projectMVC\\Entities\\Entities.csproj"
             }
           }
         }
